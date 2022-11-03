@@ -8,16 +8,6 @@ import os
 
 filename = sys.argv[1]
 
-team = ''
-seriesNum = 0
-fileName = ''
-name = ''
-description = ''
-gender = ''
-uuid = ''
-
-
-
 
 
 header = []
@@ -47,13 +37,14 @@ with open(filename, 'r') as csvfile:
             "sensitive_content": False,
             "series_number": seriesNum,
             "series_total": 526,
+            "uuid": uuid,
             "attributes": {
                 "trait_type": "gender",
                 "value": gender
             },
             "collection": {
                 "name": "Zuri NFT Tickets for Free Lunch",
-                "id": uuid,
+                "id": "b774f676-c1d5-422e-beed-00ef5510c64d",
                 "attributes": [
                     {
                         "type": "description",
@@ -97,13 +88,14 @@ with open(filename, 'r') as csvfile:
             "sensitive_content": False,
             "series_number": seriesNum,
             "series_total": 526,
+            "uuid": uuid,
             "attributes": {
                 "trait_type": "gender",
                 "value": gender
             },
             "collection": {
                 "name": "Zuri NFT Tickets for Free Lunch",
-                "id": uuid,
+                "id": "b774f676-c1d5-422e-beed-00ef5510c64d",
                 "attributes": [
                     {
                         "type": "description",
